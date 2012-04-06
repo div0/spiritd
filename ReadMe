@@ -1,0 +1,12 @@
+This is a port of the classic version of boost::spirit to the D programming language.
+
+If you know what spirit is, you can pretty much just dive right in and start using spiritd.
+Otherwise go read the http://www.boost.org/doc/libs/1_36_0/libs/spirit/classic/index.html
+spirit documentation first.
+
+Differences to c++
+
+There is no operator overloading in spiritd due to the lack of global operators.
+Instead there are some convenience template functions to create composite
+parsers in spirit.factory. Have a look at the example 'test0.d'
+

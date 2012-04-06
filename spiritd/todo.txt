@@ -1,0 +1,15 @@
++ profiling. spirit parsers are designed to be value types. c.f. D classes & use of scope
++ port the rest of utility stuff
++ revise code in spiritd.impl.escapeChar.d, it's a cack way of doing it
++ port symbol table?
++ remove use of match.conv functions when template constructors get added
++ can we replace classes with structs? too many news!
++ investigate spirit2, see if there's benefit to porting that
++ implement the specalisations in impl.directives,
+	so we don't unnecessariy change iter policies when they are already the correct type
+
+maybes:
+	+ operator overloading
+	+ compile time string processor for bnf and generate a parse tree from that
++ when d's compile time stuff gets sorted make spiritd compile time callable
+	= will require forking a pure d2 only version
