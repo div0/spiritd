@@ -4,6 +4,11 @@ If you know what spirit is, you can pretty much just dive right in and start usi
 Otherwise go read the http://www.boost.org/doc/libs/1_36_0/libs/spirit/classic/index.html
 spirit documentation first.
 
+This port is also Boost licensed:
+
+	Distributed under the Boost Software License, Version 1.0. (See accompanying
+	file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+
 Differences to c++
 
 There is no operator overloading in spiritd due to the lack of global operators.
